@@ -75,3 +75,6 @@ textarea{
   transition: all .3s ease-in-out;
 }
 
+.redblock {
+  background-color: rgba(192, 21, 21, 0.8);
+}
