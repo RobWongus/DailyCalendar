@@ -73,8 +73,17 @@ textarea{
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
+
 }
 
 .redblock {
   background-color: rgba(192, 21, 21, 0.8);
+}
+
+.yellowblock {
+  background-color: rgb(231, 231, 9);
+}
+
+.greenblock {
+  background-color: rgb(5, 196, 5);
 }

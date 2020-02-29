@@ -34,10 +34,17 @@ let button = document.getElementById("eightam-button");
         }
     }
         
-    document.getElementsByTagName("button").addEventListener("click", function(){
-        save();
-        console.log("save");
-    })          
+    
+   document.querySelector(".container") .addEventListener("click", function(e) {
+      event.preventDefault();
+      if(e.target.type == "button") {
+          save();
+      }
+   
+    //   if($(this).is("button")) {
+    //        console.log("button");
+    //    }
+   });       
     
     
   
