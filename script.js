@@ -22,6 +22,9 @@ let button = document.getElementById("eightam-button");
             } else {
                 dateArray[i].classList.add("greenblock");
             }
+              if (currentTime + 8 > i) {
+                  dateArray[i].classList.add("blueblock");
+              }
         }  
     }
 

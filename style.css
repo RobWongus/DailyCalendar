@@ -76,6 +76,10 @@ textarea{
 
 }
 
+.input-group-text {
+  padding-left: -1%;
+}
+
 .redblock {
   background-color: rgba(192, 21, 21, 0.8);
 }
@@ -86,4 +90,8 @@ textarea{
 
 .greenblock {
   background-color: rgb(5, 196, 5);
+}
+
+.blueblock {
+  background-color: rgb(6, 6, 180);
 }
