@@ -23,7 +23,7 @@ Week Day Scheduler
 `<p>A simple calendar app for scheduling your work day</p>`
 
 <!-- 10 Rows of Form Buttons Spanning from 8AM to 5PM-->
-'<div class="input-group mb-3">
+<div class="input-group mb-3">
       <div class="input-group-prepend">
         <span class="input-group-text">8AM</span>
       </div>
@@ -31,7 +31,88 @@ Week Day Scheduler
       <div class="input-group-append">
         <button class="btn btn-outline-secondary" type="button" id="eightam-button">Button</button>
       </div>
-    </div>'
+    </div>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text">9AM</span>
+      </div>
+      <input type="text" class="form-control" placeholder="Enter Appointment" aria-label="Recipient's username" aria-describedby="nineam-button">
+      <div class="input-group-append">
+        <button class="btn btn-outline-secondary" type="button" id="nineam-button">Button</button>
+      </div>
+    </div>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text">10AM</span>
+      </div>
+      <input type="text" class="form-control" placeholder="Enter Appointment" aria-label="Recipient's username" aria-describedby="tenam-button">
+      <div class="input-group-append">
+        <button class="btn btn-outline-secondary" type="button" id="tenam-button">Button</button>
+      </div>
+    </div>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text">11AM</span>
+      </div>
+      <input type="text" class="form-control" placeholder="Enter Appointment" aria-label="Recipient's username" aria-describedby="elevenam-button">
+      <div class="input-group-append">
+        <button class="btn btn-outline-secondary" type="button" id="elevenam-button">Button</button>
+      </div>
+    </div>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text">12PM</span>
+      </div>
+      <input type="text" class="form-control" placeholder="Enter Appointment" aria-label="Recipient's username" aria-describedby="twelvepm-button">
+      <div class="input-group-append">
+        <button class="btn btn-outline-secondary" type="button" id="twelvepm-button">Button</button>
+      </div>
+    </div>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text">1PM</span>
+      </div>
+      <input type="text" class="form-control" placeholder="Enter Appointment" aria-label="Recipient's username" aria-describedby="onepm-button">
+      <div class="input-group-append">
+        <button class="btn btn-outline-secondary" type="button" id="onepm-button">Button</button>
+      </div>
+    </div>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text">2PM</span>
+      </div>
+      <input type="text" class="form-control" placeholder="Enter Appointment" aria-label="Recipient's username" aria-describedby="twopm-button">
+      <div class="input-group-append">
+        <button class="btn btn-outline-secondary" type="button" id="twopm-button">Button</button>
+      </div>
+    </div>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text">3PM</span>
+      </div>
+      <input type="text" class="form-control" placeholder="Enter Appointment" aria-label="Recipient's username" aria-describedby="threepm-button">
+      <div class="input-group-append">
+        <button class="btn btn-outline-secondary" type="button" id="threepm-button">Button</button>
+      </div>
+    </div>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text">4PM</span>
+      </div>
+      <input type="text" class="form-control" placeholder="Enter Appointment" aria-label="Recipient's username" aria-describedby="fourpm-button">
+      <div class="input-group-append">
+        <button class="btn btn-outline-secondary" type="button" id="fourpm-button">Button</button>
+      </div>
+      </div>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text">5PM</span>
+      </div>
+      <input type="text" class="form-control" placeholder="Enter Appointment" aria-label="Recipient's username" aria-describedby="fivepm-button">
+      <div class="input-group-append">
+        <button class="btn btn-outline-secondary" type="button" id="fivepm-button">Button</button>
+      </div>
+    </div>
 
 <!-- Links to JavaScript -->
 [Java Script For Form Color](https://code.jquery.com/jquery-3.4.1.min.js")
