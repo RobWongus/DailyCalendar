@@ -42,11 +42,10 @@ let button = document.getElementById("eightam-button");
       event.preventDefault();
       if(e.target.type == "button") {
           save();
+          location.reload();
       }
    
-    //   if($(this).is("button")) {
-    //        console.log("button");
-    //    }
+    
    });       
     
     
